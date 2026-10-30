@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-display: 'Barlow Condensed', sans-serif;
+  --color-brand-red: #DC2626;
+  --color-brand-red-dark: #991B1B;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #ffffff;
+  color: #18181b;
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+/* Subtle technology grid background patterns */
+.bg-tech-grid {
+  background-size: 48px 48px;
+  background-image: 
+    linear-gradient(to right, rgba(220, 38, 38, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(220, 38, 38, 0.04) 1px, transparent 1px);
+}
+
+.bg-dot-pattern {
+  background-size: 24px 24px;
+  background-image: radial-gradient(rgba(220, 38, 38, 0.09) 1px, transparent 1px);
+}

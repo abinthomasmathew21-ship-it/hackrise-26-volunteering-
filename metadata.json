@@ -1,0 +1,6 @@
+{
+  "name": "HACKRISE ’26 Volunteer Registration",
+  "description": "Official Volunteer Registration portal for HACKRISE ’26, the 12-Hour Inter-College Hackathon by Orbinex Innovations × MBC : 80 and supported by µLearn MBCCET.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
